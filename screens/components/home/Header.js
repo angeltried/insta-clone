@@ -8,7 +8,7 @@ class Header extends Component {
     return (
       <View style={styles.container}>
         <TouchableOpacity>
-        <Image style={styles.logo} source={require('././assets/header-logo.png')}/>
+        <Image style={styles.logo} source={require('../../../assets/header-logo.png')}/>
         </TouchableOpacity>
 
 

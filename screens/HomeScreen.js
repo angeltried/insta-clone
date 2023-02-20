@@ -2,6 +2,8 @@
 import React, { Component } from 'react';
 import { SafeAreaView, Text, StyleSheet } from 'react-native';
 import Header from './components/home/Header';
+import Post from './components/home/Post';
+import Stories from './components/home/Stories';
 
 // create a component
 class HomeScreen extends Component {
@@ -9,6 +11,8 @@ class HomeScreen extends Component {
     return (
       <SafeAreaView style={styles.container}>
         <Header/>
+        <Stories/>
+        <Post/>
       </SafeAreaView>
     );
   }
